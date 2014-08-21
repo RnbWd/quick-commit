@@ -1,0 +1,22 @@
+{
+  "name": "commit",
+  "version": "1.0.0",
+  "description": "easy git commit",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RnbWd/commit.git"
+  },
+  "author": "David",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RnbWd/commit/issues"
+  },
+  "homepage": "https://github.com/RnbWd/commit",
+  "dependencies": {
+    "bud": "^1.0.4"
+  }
+}
