@@ -1,5 +1,5 @@
 ```
-git add . &amp;&amp; git commit -m 'update' &amp;&amp; git push
+git add . && git commit -m 'update' && git push
 ```
 ======
 
