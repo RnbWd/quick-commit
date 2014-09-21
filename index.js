@@ -8,7 +8,7 @@ task('add', function(t) {
 
 task('commit', task.once('add'), function(t) {
   if (!t.params.msg) t.params.msg = 'update';
-  t.exec("git commit -m '{msg}'", t.params).then(t.done);
+  t.exec('git commit -m "{msg}"', t.params).then(t.done);
 });
 
 task('push', task.once('commit'), function(t) {

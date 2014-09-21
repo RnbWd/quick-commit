@@ -1,6 +1,6 @@
 {
-  "name": "commit",
-  "version": "1.0.0",
+  "name": "quick-commit",
+  "version": "0.1.0",
   "description": "easy git commit",
   "main": "index.js",
   "scripts": {
