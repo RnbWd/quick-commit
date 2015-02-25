@@ -1,10 +1,13 @@
 {
-  "name": "quick-commit",
-  "version": "0.1.0",
+  "name": "local-commit",
+  "version": "0.1.1",
   "description": "easy git commit",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4873/"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,7 @@
   },
   "homepage": "https://github.com/RnbWd/commit",
   "dependencies": {
-    "bud": "^1.0.4"
+    "local-debug": "0.0.1",
+    "local-dympl": "0.0.5"
   }
 }

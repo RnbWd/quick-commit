@@ -1,4 +1,4 @@
-var task = require('bud');
+var task = require('local-dympl');
 
 task('default', task.once('push'));
 
