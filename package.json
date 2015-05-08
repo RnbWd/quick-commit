@@ -1,26 +1,29 @@
 {
   "name": "local-commit",
-  "version": "0.1.1",
   "description": "easy git commit",
+  "version": "0.1.1",
+  "author": "David",
+  "bugs": {
+    "url": "https://github.com/RnbWd/quick-commit/issues"
+  },
+  "bin": {
+    "git-update": "cli.js"
+  },
+  "dependencies": {
+  },
+  "homepage": "https://github.com/RnbWd/quick-commit",
+  "keywords": [
+    "git",
+    "git-update",
+    "quick-commit"
+  ],
+  "license": "MIT",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "publishConfig": {
-    "registry": "http://localhost:4873/"
-  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/RnbWd/commit.git"
+    "url": "https://github.com/RnbWd/quick-commit.git"
   },
-  "author": "David",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/RnbWd/commit/issues"
-  },
-  "homepage": "https://github.com/RnbWd/commit",
-  "dependencies": {
-    "local-debug": "0.0.1",
-    "local-dympl": "0.0.5"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }

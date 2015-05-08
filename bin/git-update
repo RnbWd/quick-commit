@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [ $# -eq 0 ]; then
+  git rm . -r --cached && git add . && \
+  git commit -m 'update' && git push;
+else
+  git rm . -r --cached && git add . && \
+  git commit -m "$@" && git push;
+fi;
