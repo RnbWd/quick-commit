@@ -9,8 +9,7 @@
   "bin": {
     "git-update": "cli.js"
   },
-  "dependencies": {
-  },
+  "dependencies": {},
   "homepage": "https://github.com/RnbWd/quick-commit",
   "keywords": [
     "git",
