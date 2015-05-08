@@ -1,7 +1,7 @@
 {
   "name": "quick-commit",
   "description": "this might be a bad idea",
-  "version": "0.2.4",
+  "version": "0.2.5",
   "author": "David",
   "bin": {
     "git-update": "cli.js"
