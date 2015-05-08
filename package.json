@@ -3,13 +3,18 @@
   "description": "this might be a bad idea",
   "version": "0.2.4",
   "author": "David",
-  "bugs": {
-    "url": "https://github.com/RnbWd/quick-commit/issues"
-  },
   "bin": {
     "git-update": "cli.js"
   },
+  "bugs": {
+    "url": "https://github.com/RnbWd/quick-commit/issues"
+  },
   "dependencies": {},
+  "files": [
+    "index.js",
+    "cli.js",
+    "bin"
+  ],
   "homepage": "https://github.com/RnbWd/quick-commit",
   "keywords": [
     "git",
@@ -17,11 +22,7 @@
     "quick-commit"
   ],
   "license": "MIT",
-  "files": [
-    "index.js",
-    "cli.js",
-    "bin"
-  ],
+  "preferGlobal": true,
   "repository": {
     "type": "git",
     "url": "https://github.com/RnbWd/quick-commit.git"
