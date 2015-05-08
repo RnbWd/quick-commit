@@ -3,6 +3,6 @@
 var spawn = require('child_process').spawn;
 var input = process.argv.slice(2);
 var bin = require('./');
-
+console.log(bin);
 spawn(bin, input, {stdio: 'inherit'})
   .on('exit', process.exit);
