@@ -1,23 +1,14 @@
+# quick-commit [![Build Status](https://img.shields.io/travis/RnbWd/git-update.svg?style=flat-square)](https://travis-ci.org/RnbWd/git-update)[![Dependency Status](https://img.shields.io/david/rnbwd/git-update.svg?style=flat-square)](https://david-dm.org/rnbwd/git-update)[![Version](https://img.shields.io/badge/version-0.1.1-blue.svg?style=flat-square)](https://www.vaultproject.io/downloads.html)
+
+> git-update
+
+[![NPM](https://nodei.co/npm/quick-commit.png?downloads=true)](https://nodei.co/npm/quick-commit/)
+
+## CLI
+
+```bash
+$ npm install -g quick-commit
 ```
-git add . && git commit -m 'update' && git push
+```bash
+$ git-update [<message>]
 ```
-======
-
-##How to Use:
-
-```
-node commit
-
-Or to specify message
-
-node commit msg=yeahbaby
-```
-
-Currently this module automates the following command line scripts:
-
-- 'git add .'
-
-- 'git commit -m "{msg}"'
-
-- 'git push'
-
