@@ -4,7 +4,7 @@
 
 [![NPM](https://nodei.co/npm/quick-commit.png?downloads=true)](https://nodei.co/npm/quick-commit/)
 
-## CLI
+## Usage
 
 ```bash
 $ npm install -g quick-commit
@@ -12,3 +12,7 @@ $ npm install -g quick-commit
 ```bash
 $ git-update [<message>]
 ```
+
+## License
+
+MIT
