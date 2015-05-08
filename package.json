@@ -1,7 +1,7 @@
 {
   "name": "quick-commit",
   "description": "easy git commit",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "author": "David",
   "bugs": {
     "url": "https://github.com/RnbWd/quick-commit/issues"
